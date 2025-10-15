@@ -1,0 +1,54 @@
+.container {
+  width: 1441px;
+  height: 900px;
+  display: flex;
+  margin: 100px auto 0 auto;
+  gap: 20px;
+}
+.block {
+  height: 521px;
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  border-radius: 0 0 20px 20px;
+  background-color: #f3f3f3;
+}
+.text-block {
+  width: 100%;
+  margin: 28px;
+}
+.pic {
+  width: 380px;
+  height: 264px;
+}
+#pic-cat1 {
+  background: url('/assets/images/cat1.png') center/cover no-repeat;
+}
+#pic-cat2 {
+  background: url('/assets/images/cat2.png') center/cover no-repeat;
+}
+#pic-cat3 {
+  background: url('/assets/images/cat3.png') center/cover no-repeat;
+}
+h2 {
+  font-family: 'Monserrat', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+button {
+  height: 65px;
+  width: 100%;
+  color: white;
+  font-size: 16px;
+}
+#btn-1 {
+  background-color: #6ebbd3;
+}
+#btn-2 {
+  background-color: #1f2021;
+}
+#btn-3 {
+  background-color: #6ebbd3;
+}
